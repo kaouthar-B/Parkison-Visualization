@@ -1,0 +1,106 @@
+/* Styles généraux */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #444;
+  margin: 0;
+  padding: 0;
+}
+
+/* Titre principal */
+h1 {
+  text-align: center;
+  color: #222;
+  font-size: 2.5em;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+/* Inputs pour la recherche */
+#search-dropdown, #search-input {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Margins spécifiques */
+#search-dropdown {
+  margin-top: 30px;
+}
+
+/* Conteneur des graphes */
+.graph-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+/* Style des boutons */
+button {
+  padding: 10px 15px;
+  font-size: 1em;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style des onglets Dash */
+.dash-spacer {
+  display: flex;
+  flex-direction: row;
+}
+
+.dcc-tabs {
+  font-family: 'Arial', sans-serif;
+}
+
+.dcc-tab {
+  background-color: #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.dcc-tab:hover {
+  background-color: #bbb;
+}
+
+.dcc-tab--selected {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: 2px solid #0056b3;
+}
+
+/* Graphes */
+.graph {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+/* Conteneurs dynamiques */
+#dynamic-content {
+  background: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
